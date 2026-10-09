@@ -1,8 +1,14 @@
-/* add styles here */
+
+.stars {
+  display: flex;
+  gap: 4px;
+}
+
 .stars__star {
-  width: 20px; /* lub inny wymiar z Figma */
+  width: 20px;
   height: 20px;
-  background-image: url('images/star.svg');
+  background-image: url("./images/star.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
 }
