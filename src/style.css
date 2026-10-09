@@ -9,8 +9,8 @@ body {
 
 .stars__star,
 .stars__star-active {
-  width: 13px;
-  height: 13px;
+  width: 12px;
+  height: 12px;
   flex-shrink: 0;
   background-repeat: no-repeat;
   background-position: center;
