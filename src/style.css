@@ -1,29 +1,29 @@
 body {
-margin: 0;
+  margin: 0;
 }
 
 .stars {
-display: flex;
-align-items: center;
-width: 96px;
-height: 16px;
+  display: flex;
+  align-items: center;
+  width: 96px;
+  height: 16px;
 }
 
 .stars__star,
 .stars__star-active {
-display: block;
-width: 16px;
-height: 16px;
-flex: 0 0 16px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: contain;
+  display: block;
+  width: 12px;
+  height: 12px;
+  flex: 0 0 12px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .stars__star {
-background-image: url('./images/star.svg');
+  background-image: url('./images/star.svg');
 }
 
 .stars__star-active {
-background-image: url('./images/star-active.svg');
+  background-image: url('./images/star-active.svg');
 }
