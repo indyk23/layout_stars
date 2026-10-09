@@ -1,7 +1,3 @@
-
-
 @import './blocks/star.css';
 /* stylelint-disable-next-line no-duplicate-at-import-rules */
-@import'./blocks/star.css';
-
-
+@import './blocks/star.css';
