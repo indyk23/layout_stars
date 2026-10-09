@@ -1,33 +1,35 @@
 body {
-margin: 0;
+  margin: 0;
 }
 
 .stars {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin: 0 auto
 }
 
 .stars__star,
 .stars__star-active {
-width: 16px;
-height: 16px;
-flex-shrink: 0;
-background-repeat: no-repeat;
-background-position: center;
-background-size: contain;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .stars__star {
-background-image: url('./images/star.svg');
-margin-right: 8px;
+  background-image: url('./images/star.svg');
+  margin-right: 8px;
 }
 
 .stars__star-active {
-background-image: url('./images/star-active.svg');
-margin-right: 8px;
+  background-image: url('./images/star-active.svg');
+  margin-right: 8px;
 }
 
 .stars__star:last-child,
 .stars__star-active:last-child {
-margin-right: 0;
+  margin-right: 0;
 }
