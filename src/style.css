@@ -1,4 +1,3 @@
-/* Reset browser's default margin */
 body {
 margin: 0;
 }
@@ -20,8 +19,15 @@ background-size: contain;
 
 .stars__star {
 background-image: url('./images/star.svg');
+margin-right: 8px;
 }
 
 .stars__star-active {
 background-image: url('./images/star-active.svg');
+margin-right: 8px;
+}
+
+.stars__star:last-child,
+.stars__star-active:last-child {
+margin-right: 0;
 }
